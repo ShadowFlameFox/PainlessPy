@@ -1,1 +1,1 @@
-from index import WeatherAPI
+from painlesspy.main import WeatherAPI
