@@ -1,7 +1,14 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'Makes programming with Python easier.'
+LONG_DESCRIPTION =  """
+                        # Installation
+                        Install PainlessPy using pip:
+                        ```
+                        pip install painlesspy
+                        ```
+                    """
 
 # Setting up
 setup(
@@ -11,7 +18,7 @@ setup(
     author_email="<shadow_flame_fox@web.de>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description="""Coming soon...""",
+    long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     install_requires=["requests"],
     keywords=['Python', "WeatherAPI"],
